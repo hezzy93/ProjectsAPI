@@ -45,7 +45,7 @@ project-api/
 git clone https://github.com/yourusername/project-api.git
 cd project-api
 
- 1️⃣ Create virtual environment
+ 2️⃣ Create virtual environment
 
 # Windows
 python -m venv venv
@@ -56,7 +56,7 @@ python3 -m venv venv
 source venv/bin/activate
 
  3️⃣ Install dependencies
-
+ pip install -r requirements.txt
 
  4️⃣ Configure environment variables
 
