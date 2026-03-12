@@ -44,3 +44,13 @@ project-api/
 ```bash
 git clone https://github.com/yourusername/project-api.git
 cd project-api
+
+Create virtual environment
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
