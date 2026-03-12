@@ -45,7 +45,7 @@ project-api/
 git clone https://github.com/yourusername/project-api.git
 cd project-api
 
-### 1️⃣ Create virtual environment
+ 1️⃣ Create virtual environment
 
 # Windows
 python -m venv venv
@@ -55,10 +55,10 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-### 3️⃣ Install dependencies
+ 3️⃣ Install dependencies
 
 
-### 4️⃣ Configure environment variables
+ 4️⃣ Configure environment variables
 
 Create a .env file based on .env.example:
 
@@ -70,12 +70,12 @@ DB_NAME=project_api
 
 ⚠️ Do not push your real .env to GitHub.
 
-### 5️⃣ Run MySQL server
+ 5️⃣ Run MySQL server
 
 Make sure your MySQL database is running:
 
 CREATE DATABASE project_api;
-### 6️⃣ Run the FastAPI app
+ 6️⃣ Run the FastAPI app
 uvicorn main:app --reload
 
 Open Swagger docs: http://127.0.0.1:8000/docs
