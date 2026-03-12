@@ -60,14 +60,9 @@ source venv/bin/activate
 
  4️⃣ Configure environment variables
 
-Create a .env file based on .env.example:
+Create a .env file and add:
 
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=project_api
-
+DB_URL=mysql+pymysql://username:password@localhost:3306/project_api
 ⚠️ Do not push your real .env to GitHub.
 
  5️⃣ Run MySQL server
